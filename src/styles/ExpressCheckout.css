@@ -1,0 +1,103 @@
+.express-checkout-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 20px;
+}
+
+.checkout-form {
+  width: 60%;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.payment-options button {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.payment-options .shop-pay {
+  background: #7d5cfb;
+  color: #fff;
+}
+
+.payment-options .paypal {
+  background: #ffc439;
+  color: #333;
+}
+
+.payment-options .google-pay {
+  background: #000;
+  color: #fff;
+}
+
+.or {
+  text-align: center;
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+.checkout-form input,
+.checkout-form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.name-fields,
+.city-fields {
+  display: flex;
+  gap: 10px;
+}
+
+.continue-to-payment-btn {
+  width: 100%;
+  background: #333;
+  color: #fff;
+  padding: 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.cart-summary {
+  width: 35%;
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.cart-product {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.cart-product-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.pricing {
+  margin-top: 15px;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
+
+.total-amount {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}

@@ -1,0 +1,34 @@
+.payment-form {
+    margin-top: 20px;
+  }
+  
+  .payment-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .payment-form .expiry-cvv {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .payment-form .expiry-cvv input {
+    width: 48%;
+  }
+  
+  .submit-payment-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-payment-btn:hover {
+    background-color: #45a049;
+  }
+  
